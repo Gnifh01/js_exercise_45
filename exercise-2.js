@@ -5,6 +5,6 @@ const person = {
   age: 25,
 };
 
-const [id, firstName, lastName, age] = person;
+const {id, firstName, lastName, age} = person;
 
 console.log(id, firstName, lastName, age);
